@@ -1,114 +1,136 @@
-<!DOCTYPE html><html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Arth Kale - Portfolio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="Mportfolio.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Arth Kale - Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="Mportfolio.css" />
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
 </head>
 <body>
-    <!-- Navbar Section -->
-    <nav style="background-color: #3498db; padding: 15px 0;">
-        <div style="max-width: 1200px; margin: 0 auto; display: flex; justify-content: center; gap: 40px; flex-wrap: wrap;">
-            <a href="#home" style="color: white; text-decoration: none; font-weight: bold; font-size: 1.1rem;">Home</a>
-            <a href="#about" style="color: white; text-decoration: none; font-weight: bold; font-size: 1.1rem;">About</a>
-            <a href="#skills" style="color: white; text-decoration: none; font-weight: bold; font-size: 1.1rem;">Skills</a>
-            <a href="#projects" style="color: white; text-decoration: none; font-weight: bold; font-size: 1.1rem;">Projects</a>
-            <a href="#contact" style="color: white; text-decoration: none; font-weight: bold; font-size: 1.1rem;">Contact</a>
-        </div>
-    </nav><div class="container">
+  <!-- Navbar Section -->
+  <nav style="background-color: #3498db; padding: 15px 0; position: sticky; top: 0; z-index: 1000;">
+    <div style="max-width: 1200px; margin: 0 auto; display: flex; justify-content: center; gap: 40px; flex-wrap: wrap;">
+      <a href="#home" style="color: white; text-decoration: none; font-weight: bold; font-size: 1.1rem;">Home</a>
+      <a href="#about" style="color: white; text-decoration: none; font-weight: bold; font-size: 1.1rem;">About</a>
+      <a href="#skills" style="color: white; text-decoration: none; font-weight: bold; font-size: 1.1rem;">Skills</a>
+      <a href="#projects" style="color: white; text-decoration: none; font-weight: bold; font-size: 1.1rem;">Projects</a>
+      <a href="#contact" style="color: white; text-decoration: none; font-weight: bold; font-size: 1.1rem;">Contact</a>
+    </div>
+  </nav>
+
+  <div class="container">
     <!-- Header Section -->
     <header class="header" id="home">
-        <h1>Hey, it's me</h1>
-        <h1>Arth Kale</h1>
-        <p>A computer science student who's passionate about web development, DSA, and AI/ML</p>
-        <img src="DSC_0093.JPG" alt="Arth Kale" class="profile-pic">
+      <h1>Hey, it's me</h1>
+      <h1>Arth Kale</h1>
+      <p>A computer science student who's passionate about web development, DSA, and AI/ML</p>
+      <img src="DSC_0093.JPG" alt="Arth Kale" class="profile-pic" />
     </header>
 
     <!-- About Section -->
     <section class="about-section" id="about">
-        <div class="about-image">
-            <img src="student-studying-on-study-desk-illustration-download-in-svg-png-gif-file-formats--table-education-pack-school-illustrations-10762668.webp" alt="Arth Kale" class="square-pic">
-            <a href="https://drive.google.com/file/d/1wSeF81A-gZ5hnVj2QviRexK3R3jZYENs/view?usp=drivesdk" class="resume-btn">My Resume</a>
-        </div>
-        <div class="about-content">
-            <h2>About Me</h2>
-            <p>I'm a B.Tech Computer Science student at Shri Ram Institute of Science and Technology with a strong interest in problem-solving and technology. I’m currently building a solid foundation in Data Structures and Algorithms using C++, while also developing user-friendly websites with HTML, CSS, and JavaScript. I'm passionate about applying AI and ML to real-world projects and constantly strive to expand my skills through continuous learning.</p>
-        </div>
+      <div class="about-image">
+        <img src="student-studying-on-study-desk-illustration-download-in-svg-png-gif-file-formats--table-education-pack-school-illustrations-10762668.webp" alt="Arth Kale" class="square-pic"/>
+        <a href="https://drive.google.com/file/d/1wSeF81A-gZ5hnVj2QviRexK3R3jZYENs/view?usp=drivesdk" class="resume-btn">My Resume</a>
+      </div>
+      <div class="about-content">
+        <h2>About Me</h2>
+        <p>I'm a B.Tech Computer Science student at Shri Ram Institute of Science and Technology with a strong interest in problem-solving and technology. I’m currently building a solid foundation in Data Structures and Algorithms using C++, while also developing user-friendly websites with HTML, CSS, and JavaScript. I'm passionate about applying AI and ML to real-world projects and constantly strive to expand my skills through continuous learning.</p>
+      </div>
     </section>
 
     <!-- Skills Section -->
     <section class="skills-section" id="skills">
-        <h2>My Skills</h2>
-        <div class="skills-container">
-            <div class="technical-skills">
-                <h3>Technical Skills</h3>
-                <div class="skill">
-                    <div class="skill-name">
-                        <span>HTML & CSS</span>
-                        <span>70%</span>
-                    </div>
-                    <div class="skill-bar">
-                        <div class="skill-level html-css"></div>
-                    </div>
-                </div>
-                <div class="skill">
-                    <div class="skill-name">
-                        <span>C++</span>
-                        <span>90%</span>
-                    </div>
-                    <div class="skill-bar">
-                        <div class="skill-level cpp"></div>
-                    </div>
-                </div>
-                <div class="skill">
-                    <div class="skill-name">
-                        <span>Python</span>
-                        <span>80%</span>
-                    </div>
-                    <div class="skill-bar">
-                        <div class="skill-level python"></div>
-                    </div>
-                </div>
+      <h2>My Skills</h2>
+      <div class="skills-container">
+        <div class="technical-skills">
+          <h3>Technical Skills</h3>
+          <div class="skill">
+            <div class="skill-name">
+              <span>HTML & CSS</span>
+              <span>70%</span>
             </div>
-            <div class="professional-skills">
-                <h3>Professional Skills</h3>
-                <ul>
-                    <li>Problem Solving</li>
-                    <li>Communication</li>
-                    <li>Teamwork</li>
-                </ul>
+            <div class="skill-bar">
+              <div class="skill-level html-css" data-width="70%"></div>
             </div>
+          </div>
+          <div class="skill">
+            <div class="skill-name">
+              <span>C++</span>
+              <span>90%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-level cpp" data-width="90%"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill-name">
+              <span>Python</span>
+              <span>80%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-level python" data-width="80%"></div>
+            </div>
+          </div>
         </div>
+        <div class="professional-skills">
+          <h3>Professional Skills</h3>
+          <ul>
+            <li>Problem Solving</li>
+            <li>Communication</li>
+            <li>Teamwork</li>
+          </ul>
+        </div>
+      </div>
     </section>
 
     <!-- Projects Section -->
     <section class="projects-section" id="projects">
-        <h2>My Projects</h2>
-        <div class="project-box">
-            <p>This portfolio marks the beginning of my journey in frontend development. It showcases my skills in HTML, CSS, and JavaScript, and reflects my commitment to building clean and responsive web interfaces. I’m actively expanding my skill set and plan to develop more dynamic, user-centric projects that solve real-world problems.</p>
-        </div>
+      <h2>My Projects</h2>
+      <div class="project-box">
+        <p>This portfolio marks the beginning of my journey in frontend development. It showcases my skills in HTML, CSS, and JavaScript, and reflects my commitment to building clean and responsive web interfaces. I’m actively expanding my skill set and plan to develop more dynamic, user-centric projects that solve real-world problems.</p>
+      </div>
     </section>
 
     <!-- Contact Section -->
     <section class="contact-section" id="contact">
-        <h2>Contact Me</h2>
-        <div class="contact-buttons">
-            <a href="https://www.instagram.com/arth_4059l?igsh=c2pucG1kczQyaXYy" class="contact-btn instagram" target="_blank">
-                <i class="fab fa-instagram"></i>
-            </a>
-            <a href="mailto:arthk2484@gmail.com" class="contact-btn email">
-                <i class="fas fa-envelope"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/arth-kale-6734ba33a" class="contact-btn linkedin" target="_blank">
-                <i class="fab fa-linkedin-in"></i>
-            </a>
-        </div>
+      <h2>Contact Me</h2>
+      <div class="contact-buttons">
+        <a href="https://www.instagram.com/arth_4059l?igsh=c2pucG1kczQyaXYy" class="contact-btn instagram" target="_blank">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="mailto:arthk2484@gmail.com" class="contact-btn email">
+          <i class="fas fa-envelope"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/arth-kale-6734ba33a" class="contact-btn linkedin" target="_blank">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </div>
     </section>
+  </div>
 
-</div>
+  <script>
+    window.addEventListener("scroll", () => {
+      const skillSection = document.querySelector(".skills-section");
+      const skillLevels = document.querySelectorAll(".skill-level");
 
-<script src="script.js"></script>
+      const sectionTop = skillSection.getBoundingClientRect().top;
+      const triggerPoint = window.innerHeight - 100;
 
+      if (sectionTop < triggerPoint) {
+        skillLevels.forEach(bar => {
+          const width = bar.getAttribute("data-width");
+          bar.style.width = width;
+          bar.classList.add("animated");
+        });
+      }
+    });
+  </script>
 </body>
 </html>

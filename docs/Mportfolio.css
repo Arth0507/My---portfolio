@@ -286,3 +286,10 @@ p {
         width: 100%;
     }
 }
+.skill-level {
+    height: 100%;
+    border-radius: 5px;
+    background-color: #3498db;
+    transition: width 1.5s ease;
+    width: 0; /* Initial state for animation */
+  }
